@@ -23,3 +23,18 @@ policy "restrict-s3-bucket-policies" {
   source = "./restrict-s3-bucket-policies.sentinel"
   enforcement_level = "advisory"
 }
+
+policy "enforce_s3_encryption" {
+  source = "./enforce_s3_encryption.sentinel"
+  enforcement_level = "advisory"
+}
+
+policy "require-private-acl-and-kms-for-s3-buckets" {
+  source = "./require-private-acl-and-kms-for-s3-buckets.sentinel"
+  enforcement_level = "advisory"
+}
+
+policy "restrict_s3_acl" {
+  source = "./restrict_s3_acl.sentinel"
+  enforcement_level = "advisory"
+}
