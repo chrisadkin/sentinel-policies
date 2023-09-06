@@ -1,5 +1,5 @@
 module "tfstate-functions" {
-  source = "./common-functions/tfstate-functions/tstate-functions.sentinel"
+  source = "./common-functions/tfstate-functions/tftate-functions.sentinel"
 }
 
 module "tfplan-functions" {
